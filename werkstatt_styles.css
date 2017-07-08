@@ -1,0 +1,468 @@
+
+  body {                     
+  background-image: url("images/hintergrund.jpg");
+  background-position: 80% 5%;
+  background-size: 70%;
+  background-color: #fefbb6; 
+  background-repeat: no-repeat;
+}
+
+  .container {
+    position:absolute;
+    left: 50%;
+	/*default*/
+		top: 10%;
+		margin-left: -460px; 
+		width: 920px;
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
+    font-family: Arial; 
+  }
+  
+  .menu {
+    background-color: #000000;  
+    float: left; 
+	/*default*/
+		width: 120px;
+		height: 360px; 
+    color: #ffffff; 
+  }
+  
+	/*default*/
+ 	.menu div{
+		margin-top: 160px;
+	}
+
+  .menu a {
+    margin-left: 33px; 
+    margin-top: 100px; 
+    font-size: 17px;   
+  }
+  
+  .menu a:link{
+    color: white; 
+    text-decoration:none; 
+  }
+  
+  .menu a:hover{
+    font-weight: bold; 
+    color: #fefbb3;
+  }
+  
+  .menu a:visited{
+    color: #fefbb3;    
+  }
+  
+	.active {
+		font-weight: bold;   
+	}
+ 
+  .maininfo{
+	/*default*/
+		margin-left: 120px; 
+		width: 800px; 
+		height: 360px; 
+		background-image: url(images/opaque_bg.png); 
+  }
+   
+   /*default*/
+    .homeimg{
+		width: 150px;
+		margin: 40px;
+		border: 1px solid #000000;
+	}
+	
+  .linksunten{
+    background-color: #1f3340;
+	/*default*/
+		width: 120px;
+		height: 120px;
+  }
+  /*default*/
+	.linksunten img{
+		padding-top: 20px;  
+		padding-left: 5px;
+		width: 110px;
+	}
+  
+  .mitteunten{
+    background-color: #7692a4;
+	/*default*/
+		margin-left: 120px; 
+		width: 800px;
+		height: 120px; 
+		margin-top: -120px;
+    color: white; 
+    font-family: Arial; 
+    font-size: 80px; 
+  }
+  
+  .mitteunten img{
+  /*default*/
+    padding-top: 10px;  
+	height: 90px;
+  }
+  
+  .impressum a{
+    position: absolute; 
+    top: 10%;
+    left: 50%;
+	/*default*/
+		margin-top: 480px;
+    text-decoration: none;
+    font-family: Arial;  
+    color: gray;
+    margin-left: -50px;
+  }
+
+  
+  .ietable table {
+	/*default*/
+		padding-top: 10px;
+    padding-left: 20px;
+    font-size:13px;
+  }
+  
+  table td {
+    padding-left: 40px;    
+  }   
+  
+  td a{
+  text-decoration: none; 
+  color: black;
+  font-weight: bold;
+  }
+  
+  .termine{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;
+  }
+  
+  .infotext{
+    background-color:white;
+    width: 410px;
+    height: 230px;
+    margin-left: 280px;
+    padding: 20px;
+    font-size: 14px;
+  }
+
+
+/*Gallerie*/
+  
+.inmainifo{
+	position: relative;
+}
+
+/*default*/
+.placeholder{
+	height: 62px;
+}
+
+#left img{
+	border: 1px solid black;
+}
+
+#left img, #center img{
+	width: 71px;
+	height: 71px;
+	margin: 3px 5px 2px 0px;
+}
+
+#left img:hover, #center img:hover{
+	border: 1px solid white;
+}
+
+#left, #center, #right{
+	float: left;
+		/*default*/
+	margin-left: 15px;
+}
+
+#center{
+	/*default*/
+		height: 325px;
+		margin-top: 20px;
+	margin-left: 15px;
+	padding-left: 20px;
+	border-left: 1px solid black;
+}
+
+#row1, #row2, #row3, #row4{
+	margin-bottom: 6px;
+	height: 76px;
+}
+
+#breit{
+	height: 309px;
+	margin-left: 8px;
+	padding: 4px;
+	border: thin solid black;
+}
+
+#hoch{
+	height: 309px;
+	margin-left: 100px;
+	padding: 4px;
+	border: thin solid black;
+}
+
+@media (min-width: 1200px) {
+	
+	.container{
+		top: 15%;
+		margin-left: -520px; 
+		width: 1040px;
+	}
+	
+	.menu{
+		width: 150px;
+		height: 400px; 	
+	}
+	
+	.menu div{
+		margin-top: 180px;
+	}
+	
+	.maininfo{
+	    margin-left: 150px; 
+		width: 890px; 
+		height: 400px; 
+	}
+
+    .homeimg{
+		width: 170px;
+		margin: 45px;
+		border: 1px solid #000000;
+	}
+
+	.infos{
+		margin-top: 20px;
+	}
+	
+	#left, #right {
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+	
+	#center{
+		height: 325px;
+		margin-top: 20px;
+	}
+	
+	.ietable table {
+		padding-top: 40px;
+	}
+	
+	.linksunten{
+		width: 150px;
+		height: 150px;	
+	}
+
+	.linksunten img{
+		padding-top: 25px;  
+		padding-left: 5px;
+		width: 140px;
+	}
+	
+	.mitteunten{
+		margin-left: 150px; 
+		width: 890px;
+		height: 150px; 
+		margin-top: -150px;
+	}
+
+  .mitteunten img{
+		padding-top: 20px; 
+		padding-left: 60px;
+		height: 110px;
+  }
+  
+	.impressum a{
+		margin-top: 600px;	
+	}
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+	.container{
+		margin-left: -460px; 
+		width: 920px;
+	}
+	
+	.menu{
+		width: 120px;
+		height: 360px; 	
+	}
+	
+	.maininfo{
+	    margin-left: 120px; 
+		width: 800px; 
+		height: 360px; 
+	}
+
+    .homeimg{
+		width: 150px;
+		margin: 40px;
+		border: 1px solid #000000;
+	}
+
+	.infos{
+	}
+	
+	#left, #right {
+	}
+	
+	#center{
+		height: 325px;
+		margin-top: 0px;
+	}
+	
+	.ietable table {
+		padding-top: 10px;
+	}
+	
+	.linksunten{
+		width: 120px;
+		height: 120px;	
+	}
+
+	.linksunten img{
+		padding-top: 20px;  
+		padding-left: 5px;
+		width: 110px;
+	}
+	
+	.mitteunten{
+		margin-left: 120px; 
+		width: 800px;
+		height: 120px; 
+		margin-top: -120px;
+	}
+	
+  .mitteunten img{
+		padding-top: 10px;  
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.container{
+		margin-left: -460px; 
+		width: 920px;
+	}
+	
+	.menu{
+		width: 120px;
+		height: 360px; 	
+	}
+
+	.maininfo{
+	    margin-left: 120px; 
+		width: 800px; 
+		height: 360px; 
+	}
+
+    .homeimg{
+		width: 150px;
+		margin: 40px;
+		border: 1px solid #000000;
+	}
+
+	.infos{
+	}
+	
+	#left, #right {
+	}
+	
+	#center{
+		height: 325px;
+		margin-top: 0px;
+	}
+	
+	.ietable table {
+		padding-top: 10px;
+	}	
+	
+	.linksunten{
+		width: 120px;
+		height: 120px;	
+	}
+
+	.linksunten img{
+		padding-top: 20px;  
+		padding-left: 5px;
+		width: 110px;
+	}
+	
+	.mitteunten{
+		margin-left: 120px; 
+		width: 800px;
+		height: 120px; 
+		margin-top: -120px;
+	}
+	
+	.mitteunten img{
+		padding-top: 10px;  
+	}
+}
+
+@media (max-width: 767px) {
+	.container{
+		margin-left: -460px; 
+		width: 920px;
+	}
+	
+	.menu{
+		width: 120px;
+		height: 360px; 	
+	}
+	
+	.maininfo{
+	    margin-left: 120px; 
+		width: 800px; 
+		height: 360px; 
+	}
+
+    .homeimg{
+		width: 150px;
+		margin: 40px;
+		border: 1px solid #000000;
+	}
+
+	.infos{
+	}
+	
+	#left, #right {
+	}
+	
+	#center{
+		height: 315px;
+		margin-top: 0px;
+	}
+	
+	.ietable table {
+		padding-top: 10px;
+	}
+	
+	.linksunten{
+		width: 120px;
+		height: 120px;	
+	}
+	
+	.linksunten img{
+		padding-top: 20px;  
+		padding-left: 5px;
+		width: 110px;
+	}
+  
+	.mitteunten{
+		margin-left: 120px; 
+		width: 800px;
+		height: 120px; 
+		margin-top: -120px;
+	}
+	.mitteunten img{
+		padding-top: 10px;  
+	}	
+}

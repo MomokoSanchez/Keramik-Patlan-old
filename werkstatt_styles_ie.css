@@ -1,0 +1,54 @@
+
+
+  #container {
+    margin-left: 100px; 
+    margin-top: 100px; 
+  }
+  
+
+  #menu a {
+    text-decoration: none;  
+  }
+  
+
+ 
+  #maininfo{
+    margin-top: -360px;   
+  }
+
+  
+  #linksunten img{
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+
+  a img {
+    border: none;
+  }
+  
+  #mitteunten img{
+    margin-top: 10px;  
+  }
+  .ietable{
+	margin-top: -25px;
+  }
+
+
+  #impressum{
+    margin-left: -100px;
+  }
+  
+
+  table {
+    margin-top: 25px;
+  }
+    
+  #infotext{
+    align: right; 
+    width: 430px;
+    height: 270px;
+  }
+  
+
+
+
